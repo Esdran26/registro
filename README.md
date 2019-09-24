@@ -1,5 +1,5 @@
 # Registro
-Registro de Usuario utlizando HTML, CSS, JavaScript (El proyecto no envía los datos a una database)
+Registro de Usuario utlizando HTML, CSS, JavaScript (El proyecto no envía los datos a un database)
 
 # Descripción
 
