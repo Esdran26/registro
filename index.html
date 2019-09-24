@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <script src="https://kit.fontawesome.com/de6467cf36.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <title>Registro</title>
+</head>
+<body>
+     <div class="registro">
+          <div class="titulo">
+               <h1>Regístrate</h1>
+          </div>
+          <div class="contenido">
+               <form id="formulario" action="#">
+                    <div class="input">
+                         <label id="label-usuario" for="usuario">Usuario:</label><br>
+                         <input type="text" id="input-usuario" name="usuario" placeholder="Nombre de Usuario">
+                    </div>
+                    <div class="input">
+                         <label id="label-email" for="email">Correo Electrónico:</label><br>
+                         <input type="text" id="input-email" name="email" placeholder="Correo Electrónico">
+                    </div>
+                    <div class="input">
+                         <label id="label-contraseña" for="contraseña">Contraseña:</label><br>
+                         <div class="input-con-icono">
+                              <input type="password" id="input-contraseña" name="contraseña" placeholder="Contraseña">
+                              <i class="far fa-eye fa-lg"></i>
+                              <i class="far fa-eye-slash fa-lg"></i>
+                         </div>
+                    </div>
+                    <div class="input ">
+                         <label id="label-verificar-contraseña" for="confirmar-contraseña">Confirmar Contraseña:</label><br>
+                         <input type="password" id="input-confirmar-contraseña" name="confirmar-contraseña" placeholder="Confirmar Contraseña">
+                    </div>
+                    <div class="submit">
+                         <input type="submit" id="input-submit" value="Registrarse">
+                         <a id="a-pagina" href="../index.html">Ir a la página principal</a>
+                    </div>
+               </form>
+          </div>
+     </div>
+     <script src="js/app.js"></script>
+</body>
+</html>
