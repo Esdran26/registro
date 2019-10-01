@@ -19,7 +19,7 @@ h1 {
           display: grid;
           grid-template-columns: 30% 1fr 30%;
           grid-template-rows: 15% 85%;
-          height: 95vh;
+          height: 650px;
 }
 
 .titulo {
@@ -164,4 +164,9 @@ a:hover {
           .input-con-icono .fa-eye {
                     right: 5px;
           }
+}
+@media screen and (min-height: 1000px) {
+    .registro {
+        height: 95vh;
+    }
 }
