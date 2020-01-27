@@ -1,6 +1,8 @@
 # Registro
 Registro de Usuario utlizando HTML, CSS, JavaScript (El proyecto no envía los datos a un database)
 
+![Register-javaScript](https://user-images.githubusercontent.com/55358669/73221043-e6d0d180-412d-11ea-9ae3-f69fe40580a4.png)
+
 # Descripción
 
 Es un proyecto en el cual un usuario quere registrar unos datos, con JavaScript puro se realizán cada una de las validaciónes en los diferentes campos, mostrando errores en cada una de ellas.
